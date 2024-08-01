@@ -1,0 +1,21 @@
+{
+ "name": "akumos-cli",
+ "version": "1.0.0",
+ "description": "cli tool for Akumos Platform",
+ "main": "bin/index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "keywords": [],
+ "author": "apedrina (https://github.com/apedrina)",
+ "license": "MIT",
+ "bin": {
+  "akumos": "./bin/index.js"
+ },
+ "dependencies": {
+  "axios": "^0.21.1",
+  "boxen": "4.0",
+  "chalk": "2.4",
+  "yargs": "13.2"
+ }
+}
